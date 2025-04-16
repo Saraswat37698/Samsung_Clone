@@ -1,6 +1,6 @@
 {
   "name": "vite-project",
-  "homepage": "https://Saraswat37698.github.io/Samsung_Clone",
+  "homepage": "https://Saraswat37698.github.io/SamMCT",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run deploy",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
